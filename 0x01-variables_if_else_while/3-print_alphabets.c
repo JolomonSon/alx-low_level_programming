@@ -8,21 +8,21 @@
  */
 int main(void)
 {
-		char l_alph = 'a';
+		char l_alph = 'a';	
 		char u_alph = 'A';
 
 		while (l_alph <= 'z')
 		{
-			putchar(l_alph);
-			l_alph++;	
+				putchar(l_alph);
+				l_alph++;	
 		}
 
 		while (u_alph <= 'Z')
 		{
-			putchar(u_alph);
-			u_alph++;
+				putchar(u_alph);
+				u_alph++;
 		}
 		putchar('\n');
-
+		
 		return (0);
 }
