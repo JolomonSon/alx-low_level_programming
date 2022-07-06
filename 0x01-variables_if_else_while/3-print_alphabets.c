@@ -14,8 +14,7 @@ int main(void)
 		while (l_alph <= 'z')
 		{
 			putchar(l_alph);
-			l_alph++;
-			
+			l_alph++;	
 		}
 		while (u_alph <= 'Z')
 		{
