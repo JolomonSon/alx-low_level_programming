@@ -2,20 +2,17 @@
 #include <stdlib.h>
 #include <time.h>
 /**
+ * main - Entry point
  *
- *  * main - Entry point
- *
- *   *
- *
- *    * Return: Always 0 (Success)
- *
- *     */
+ * Return: Always 0 (Success)
+ */
 
 int main(void)
 
 {
 
 		char alph = 'a';
+		
 		while (alph <= 'z')
 		{
 			putchar(alph);
