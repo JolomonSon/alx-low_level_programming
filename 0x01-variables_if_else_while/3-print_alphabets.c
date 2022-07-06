@@ -16,6 +16,7 @@ int main(void)
 			putchar(l_alph);
 			l_alph++;	
 		}
+
 		while (u_alph <= 'Z')
 		{
 			putchar(u_alph);
