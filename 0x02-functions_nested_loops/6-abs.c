@@ -1,12 +1,10 @@
 #include "main.h"
 
 /**
- * _abs - Show sign of number.
- * @n: integer operand.
+ * _abs - Computes absolute value of integers.
+ * @absolute: Integer operand/ argument.
  *
- * Description: Determining the negativity/positivity
- * of a number and printing its sign.
- * Return: 1 if +ve, 0 if zero & -1 if negative..
+ * Return: absolute.
  */
 int _abs(int n)
 {
@@ -14,6 +12,5 @@ int _abs(int n)
 	{
 		n = (-1) * n;
 	}
-	
 	return (n);
 }
