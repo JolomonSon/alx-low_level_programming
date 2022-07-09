@@ -1,10 +1,12 @@
 #include "main.h"
 
 /**
- * print_sign - Check for lowercase characters.
- * @c: Character operand.
+ * print_sign - Show sign of number.
+ * @n: integer operand.
  *
- * Return: 1 for alphabet & 0 otherwise.
+ * Description: Determining the negativity/positivity
+ * of a number and printing its sign.
+ * Return: 1 if +ve, 0 if zero & -1 if negative..
  */
 int print_sign(int n)
 {
