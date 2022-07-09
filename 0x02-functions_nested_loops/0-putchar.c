@@ -25,7 +25,8 @@ int main(void)
 	str[8] = '\n';
 	str[9] = '\0';
 	j = 0;
-											while (str[j] != '\0')
+	
+	while (str[j] != '\0')
 	{
 		_putchar(str[j]);
 		j++;
