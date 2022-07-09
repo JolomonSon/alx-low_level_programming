@@ -2,7 +2,7 @@
 
 /**
  * _abs - Computes absolute value of integers.
- * @absolute: Integer operand/ argument.
+ * @n: Integer operand/ argument.
  *
  * Return: absolute.
  */
