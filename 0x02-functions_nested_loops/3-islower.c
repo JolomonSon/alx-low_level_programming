@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * _islower - Alphabet printer.
+ * _islower - Check for lowercase characters.
+ * @c: Character operand.
  *
- * Description: Prints the alphabet in Lower Case
- * using int _putchar(int c).
+ * Return: 1 for lowercase & 0 otherwise.
  */
 int _islower(int c)
 {
