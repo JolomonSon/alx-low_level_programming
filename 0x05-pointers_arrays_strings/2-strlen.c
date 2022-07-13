@@ -1,10 +1,9 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- * swap_int - swaps the value of two integers
- *@a: number being swapped
- *@b: number being swapped
+ * _strlen - returns the length of the string
+ *@s: string being counted
+ * Return: Aways 0.
  */
 
 int _strlen(char *s)
